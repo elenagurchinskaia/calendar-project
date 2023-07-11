@@ -2,28 +2,14 @@
 
 ## Description
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours of 9am to 5pm
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-
-## Use
-
-- Go to the website.
-- Click on "Generate Password" button.
-- Select needed length of the characters.
-- Select or opt out of the special characters provided.
-- Password is generated.
-- Enjoy!
+The goal for this project was to create a daily planner that would
+be then used for the daily schedule purposes.
+When the user opens the planner, the currecnt day is displayed at the top
+of the calendar.
+Then the user is presented with the time blocks for standard business hours
+of 9 am to 5 pm.
+Each time block is color-coded to indicate whether it is in the past, present, or future.
+The user can enter the event, then click the save button for that time block. The event will be saved in the local storage. When the user refresh the page the event persist.
 
 ## Technology Used
 
@@ -32,16 +18,19 @@ THEN the saved events persist
 [HTML](!--https://developer.mozilla.org/en-US/docs/Web/HTML--)
 [CSS](!--https://developer.mozilla.org/en-US/docs/Web/CSS--)
 [Git](!--https://git-scm.com--)
+[Bootstrap](!--https://getbootstrap.com/docs/5.3/getting-started/introduction--)
+[GoogleFonts](!--https://fonts.google.com--)
 
 ## Learning points
 
-- Using JavaScript "Prompt", "Confirm" and "Alert".
-- Using "Math.randon" to randomize the password.
-- Using "generateBtn".
+- this
+- day.js
+- Bootstrap
+- jQuery
 
 ## Deployment
 
-[Password Generator](https://elenagurchinskaia.github.io/password-generator/)
+[Calendar Project](https://elenagurchinskaia.github.io/calendar-project/)
 
 ![alt text](./assets/images/05-third-party-apis-homework-demo.gif)
 
