@@ -1,5 +1,5 @@
 $(function () {
-  // figure out what hour block you're in by using $(this)
+  // TODO:figure out what hour block you're in by using $(this)
   // key needs to match the key names for getItem localStorage
   // setItem for localStorage to save the input to the corresponding hour by using keyword 'this'
   // });
@@ -9,7 +9,7 @@ $(function () {
     localStorage.setItem(hour, userInput);
   });
 
-  // a. use jquery.children to select children elements
+  // TODO:a. use jquery.children to select children elements
   //return an array of all time block names and can be used for the for loop (jquery)
   // b. use dayjs( to grab current time (the hour))
   // c. use for loop for the time blocks
@@ -35,7 +35,7 @@ $(function () {
     }
   }
 
-  //   localStorage.getItem(hour);
+  // TODO:  localStorage.getItem(hour);
   // a. getItem for localStorage to pull previously stored content
   // > separate key in localStorage for each hour
   // > create a for loop for hour 9-18 to check localStorage
@@ -54,7 +54,7 @@ $(function () {
     }
   }
 
-  // a. create var for dayjs  to get current date (and time)
+  // TODO: a. create var for dayjs  to get current date (and time)
   // b. $("#currentDay").text(var)
   var today = dayjs();
   $("#currentDay").text(today.format("[Today is] MMM D, YYYY"));
