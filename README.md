@@ -32,7 +32,7 @@ The user can enter the event, then click the save button for that time block. Th
 
 [Calendar Project](https://elenagurchinskaia.github.io/calendar-project/)
 
-![alt text](./assets/images/05-third-party-apis-homework-demo.gif)
+![alt text](./assets/images/work-day-scheduler.png)
 
 ## Author
 
