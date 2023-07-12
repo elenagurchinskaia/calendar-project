@@ -3,13 +3,13 @@
 ## Description
 
 The goal for this project was to create a daily planner that would
-be then used for the daily schedule purposes.
-When the user opens the planner, the currecnt day is displayed at the top
+be used for the daily schedule purposes.
+When the user opens the planner, the current day is displayed at the top
 of the calendar.
 Then the user is presented with the time blocks for standard business hours
 of 9 am to 5 pm.
 Each time block is color-coded to indicate whether it is in the past, present, or future.
-The user can enter the event, then click the save button for that time block. The event will be saved in the local storage. When the user refresh the page the event persist.
+The user can enter the event, then click the save button for that time block. The event will be saved in the local storage, and when the user refresh the page the event persist.
 
 ## Technology Used
 
